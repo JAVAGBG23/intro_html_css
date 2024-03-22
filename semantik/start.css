@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header,
+nav,
+main,
+article,
+section,
+footer {
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #9b9999;
+}
+
+header,
+footer {
+  background-color: #dcdada;
+}
+/*kommentar*/
+
+nav,
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav,
+ul,
+li {
+  display: inline;
+  margin-right: 10px;
+  /*margin: 10px 20px 5px 15px;
+  top, right, bottom, left*/
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
