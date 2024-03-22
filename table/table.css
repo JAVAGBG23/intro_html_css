@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+table {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ccc;
+}
+
+thead {
+  background-color: #c8c8c8;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
