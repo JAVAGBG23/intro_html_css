@@ -1,0 +1,58 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.box {
+  margin: 3rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.color-animation {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: exampleAnimation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes exampleAnimation {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: yellow;
+  }
+  100% {
+    background-color: green;
+  }
+}
+
+.transition {
+  margin-top: 2rem;
+  width: 200px;
+  height: 100px;
+  background-color: red;
+  transition: background-color 2s ease-in-out;
+  cursor: pointer;
+  text-align: center;
+}
+
+.transition:hover {
+  background-color: blue;
+}
+
+:root {
+  --primary-color: #57a557;
+}
+
+.variable {
+  margin-top: 2rem;
+  width: 100px;
+  height: 200px;
+  background-color: var(--primary-color);
+}
