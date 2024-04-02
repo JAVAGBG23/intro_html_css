@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.6;
+  height: 100vh;
+  background-color: white;
+}
+
+header,
+nav,
+main,
+footer {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 52px;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 38px;
+  letter-spacing: 0.5px;
+}
+
+p {
+  font-family: "Source Serif 4", serif;
+  font-size: 20px;
+}
+
+header {
+  background-color: black;
+  color: white;
+}
+
+ul,
+nav {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: black;
+  padding: 15px 20px 8px 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-size: 22px;
+  letter-spacing: 0.5px;
+}
+
+main {
+  background-color: black;
+  color: white;
+  padding: 2rem;
+  height: 50%;
+}
+
+footer {
+  background-color: #1d1d1d;
+  color: white;
+  height: 10%;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 1024px) {
+  nav,
+  ul,
+  li {
+    display: block;
+    margin: 0;
+  }
+
+  main {
+    height: 42%;
+  }
+}
